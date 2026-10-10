@@ -7,7 +7,7 @@ import "@fontsource/inter/600.css";
 import "./globals.css";
 import { LangProvider } from "@/i18n";
 
-const SITE_URL = "https://costdrivers.canada.nshipyard.com";
+const SITE_URL = "https://housing-costs.nshipyard.com";
 const TITLE = "What drove Toronto's 4.6x construction-cost rise, 1981-2026?";
 const DESCRIPTION =
   "Toronto union construction wages rose 4.55x from 1981 to 2026, tracking the 4.64x rise in construction costs almost exactly. Materials rose less: fabricated metal 4.01x, concrete 3.66x, lumber 3.11x. An open-data decomposition of what drove the housing-cost boom.";
@@ -25,11 +25,20 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/`,
     siteName: "Housing Cost Drivers",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: TITLE,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: TITLE,
     description: DESCRIPTION,
+    images: ["/og-image.png"],
   },
   icons: {
     icon: ["/favicon.ico"],
