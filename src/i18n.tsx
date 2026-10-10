@@ -26,7 +26,7 @@ const en = {
   ],
   chart: {
     kicker: "The decomposition",
-    title: "Wages tracked construction costs. Materials did not.",
+    title: "Union wages rose 4.55x since 1981, almost matching the 4.64x rise in construction costs. Materials rose less.",
     body: "All series rebased to 1981=100. Toronto union construction wages (including supplements) move with the house-only construction-cost index across the full 45 years, ending at 4.55x against 4.64x. National materials prices sit below both: fabricated metal 4.01x, concrete 3.66x, lumber 3.11x with a sharp 2021-2022 spike, total industrial prices 3.12x.",
     legend: [
       { key: "nhpi", label: "Construction costs (NHPI house-only, Toronto CMA)" },
@@ -154,7 +154,7 @@ const fr: Dict = {
   ],
   chart: {
     kicker: "La décomposition",
-    title: "Les salaires ont suivi les coûts de construction. Les matériaux, non.",
+    title: "Les salaires syndicaux ont grimpé de 4,55x depuis 1981, presque autant que les coûts de construction (4,64x). Les matériaux ont moins augmenté.",
     body: "Toutes les séries sont ramenées à 1981=100. Les salaires syndicaux de la construction à Toronto (suppléments compris) suivent l'indice des coûts de construction maison seule sur les 45 années, terminant à 4,55x contre 4,64x. Les prix nationaux des matériaux restent en dessous : produits métalliques fabriqués 4,01x, béton 3,66x, bois d'œuvre 3,11x avec un pic marqué en 2021-2022, ensemble des prix industriels 3,12x.",
     legend: [
       { key: "nhpi", label: "Coûts de construction (IPLN maison seule, RMR de Toronto)" },
